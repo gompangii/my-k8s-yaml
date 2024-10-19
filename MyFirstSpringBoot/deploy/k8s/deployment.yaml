@@ -21,7 +21,7 @@ spec:
         kubernetes.io/hostname: k8s-master
       containers:
       - name: my-first-spring-boot
-        image: gompangii/myfirstspringboot
+        image: gompangii/myfirstspringboot:v1.0.0
         imagePullPolicy: Always
         ports:
         - containerPort: 8081
