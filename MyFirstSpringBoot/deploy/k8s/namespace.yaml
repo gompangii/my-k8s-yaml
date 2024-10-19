@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: springboot
+  labels:
+    part-of: my-k8s
+    managed-by: kubectl
